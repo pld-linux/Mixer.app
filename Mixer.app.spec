@@ -4,8 +4,6 @@ Name:		Mixer.app
 Version:	1.4.0
 Release:	1
 Group:		X11/Window Managers/Tools
-Group(de):	X11/Fenstermanager/Werkzeuge
-Group(pl):	X11/Zarz±dcy Okien/Narzêdzia
 License:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
 URL:		http://www.student.hk-r.se/~pt96pli/mixer/
