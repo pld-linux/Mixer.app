@@ -11,7 +11,7 @@ URL:		http://www.student.hk-r.se/~pt96pli/mixer/
 BuildRequires:	libstdc++-devel
 BuildRequires:	XFree86-devel
 BuildRequires:	xpm-devel
-BuildRoot:   	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define _prefix /usr/X11R6
 
