@@ -10,7 +10,7 @@ URL:		http://www.student.hk-r.se/~pt96pli/mixer/
 BuildPrereq:	libstdc++-devel
 BuildPrereq:	XFree86-devel
 BuildPrereq:	xpm-devel
-BuildRoot:   	/tmp/%{name}-%{version}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
 Mixer.app is a audio mixer utility. It is designed to be docked in Window
