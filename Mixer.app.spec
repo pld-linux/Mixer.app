@@ -7,9 +7,9 @@ Group(pl):	X11/Zarz±dcy Okien/Narzêdzia
 Copyright:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
 URL:		http://www.student.hk-r.se/~pt96pli/mixer/
-BuildPrereq:	libstdc++-devel
-BuildPrereq:	XFree86-devel
-BuildPrereq:	xpm-devel
+BuildRequires:	libstdc++-devel
+BuildRequires:	XFree86-devel
+BuildRequires:	xpm-devel
 BuildRoot:   	/tmp/%{name}-%{version}-root
 
 %define _prefix /usr/X11R6
