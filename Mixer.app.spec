@@ -1,9 +1,10 @@
 Summary:	A Window Maker dock app with mixer
-Summary(pl):	Dokuj±ca aplikacja Window Makera - mixerem
+Summary(pl):	Dokuj±ca aplikacja Window Makera z mikserem
 Name:		Mixer.app
 Version:	1.4.0
 Release:	1
 Group:		X11/Window Managers/Tools
+Group(de):	X11/Fenstermanager/Werkzeuge
 Group(pl):	X11/Zarz±dcy Okien/Narzêdzia
 License:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
@@ -33,7 +34,7 @@ dowolnym ¼ród³em d¼wiêku.
 %build
 xmkmf -a
 make	PREFIX=%{_prefix}/GNUstep/Apps/Mixer.app \
-	CXXDEBUGFLAGS="$RPM_OPT_FLAGS -fno-rtti -fno-exceptions -fno-implicit-templates" \
+	CXXDEBUGFLAGS="%{rpmcflags} -fno-rtti -fno-exceptions -fno-implicit-templates" \
 
 %install
 rm -rf $RPM_BUILD_ROOT
