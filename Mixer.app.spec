@@ -6,6 +6,7 @@ Release:	1
 Group:		X11/Window Managers/Tools
 License:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
+# Source0-md5:	d4d646f8939288a6bc92bb85f6b098c0
 URL:		http://www.student.hk-r.se/~pt96pli/mixer/
 BuildRequires:	libstdc++-devel
 BuildRequires:	XFree86-devel
