@@ -41,13 +41,12 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	PREFIX=%{_prefix}/GNUstep/Apps/Mixer.app
 
-gzip -9nf ChangeLog README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc ChangeLog README
 %dir %{_prefix}/GNUstep/Apps/Mixer.app
 %attr(755,root,root) %{_prefix}/GNUstep/Apps/Mixer.app/*
