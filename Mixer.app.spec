@@ -46,8 +46,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %dir %{_prefix}/GNUstep/Apps/Mixer.app
 %attr(755,root,root) %{_prefix}/GNUstep/Apps/Mixer.app/*
-
-%changelog
-* Mon May 10 1999 Tomasz K³oczko <kloczek@rudy.mif.pg.gda.pl>
-  [1.4.0-1]
-- firs release in rpm package.
