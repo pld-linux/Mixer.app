@@ -24,7 +24,8 @@ support.
 
 %build
 xmkmf -a
-make PREFIX=/usr/X11R6/GNUstep/Apps/Mixer.app
+make	PREFIX=/usr/X11R6/GNUstep/Apps/Mixer.app \
+	CXXDEBUGFLAGS="$RPM_OPT_FLAGS -fno-rtti -fno-exceptions -fno-implicit-templates" \
 
 %install
 rm -rf $RPM_BUILD_ROOT
