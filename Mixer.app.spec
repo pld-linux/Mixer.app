@@ -39,7 +39,7 @@ make	PREFIX=%{_prefix}/GNUstep/Apps/Mixer.app \
 %install
 rm -rf $RPM_BUILD_ROOT
 
-make install \
+%{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
 	PREFIX=%{_prefix}/GNUstep/Apps/Mixer.app
 
