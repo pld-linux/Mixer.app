@@ -5,7 +5,7 @@ Version:	1.4.0
 Release:	1
 Group:		X11/Window Managers/Tools
 Group(pl):	X11/Zarz±dcy Okien/Narzêdzia
-Copyright:	GPL
+License:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
 URL:		http://www.student.hk-r.se/~pt96pli/mixer/
 BuildRequires:	libstdc++-devel
@@ -16,16 +16,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define _prefix /usr/X11R6
 
 %description
-Mixer.app is a audio mixer utility. It is designed to be docked in Window
-Maker. This utility has three volume controllers that can be configured to
-handle any sound source, the default sources are master-, cd- and
-pcm-volume. Sound sources can easily be muted and there is also wheel mouse
-support.
+Mixer.app is a audio mixer utility. It is designed to be docked in
+Window Maker. This utility has three volume controllers that can be
+configured to handle any sound source, the default sources are
+master-, cd- and pcm-volume. Sound sources can easily be muted and
+there is also wheel mouse support.
 
 %description -l pl
-Mixer.app to program kontroluj±cy mikser audio. Jest zaprojektowany by dokowaæ
-siê w Window Makerze. Ten program ma trzy kontrolery g³o¶no¶ci, które mog±
-byæ skonfigurowane tak, by mog³y zarz±dzaæ dowolnym ¼ród³em d¼wiêku.
+Mixer.app to program kontroluj±cy mikser audio. Jest zaprojektowany by
+dokowaæ siê w Window Makerze. Ten program ma trzy kontrolery
+g³o¶no¶ci, które mog± byæ skonfigurowane tak, by mog³y zarz±dzaæ
+dowolnym ¼ród³em d¼wiêku.
 
 %prep
 %setup  -q
