@@ -1,9 +1,9 @@
-Summary:	
-Name:		-
-Version:	-
-Release:	-
-Group:		-
-Group(pl):	-
+Summary:	A Window Maker dock app with mixer
+Name:		Mixer.app
+Version:	1.4
+Release:	1
+Group:		X11/Window Managers/Tools
+Group(pl):	X11/Zarz±dcy Okien/Narzêdzia
 Copyright:	GPL
 Source0:	http://www.student.hk-r.se/~pt96pli/mixer/%{name}-%{version}.tar.gz
 URL:		http://www.student.hk-r.se/~pt96pli/mixer/
