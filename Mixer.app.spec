@@ -11,7 +11,6 @@ BuildRequires:	libstdc++-devel
 BuildRequires:	XFree86-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define _prefix /usr/X11R6
 
 %description
 Mixer.app is a audio mixer utility. It is designed to be docked in
