@@ -1,5 +1,5 @@
 Summary:	A Window Maker dock app with mixer
-Summary(pl):	Dokuj±ca aplikacja Window Makera z mikserem
+Summary(pl.UTF-8):   DokujÄ…ca aplikacja Window Makera z mikserem
 Name:		Mixer.app
 Version:	1.4.0
 Release:	1
@@ -20,11 +20,11 @@ configured to handle any sound source, the default sources are
 master-, cd- and pcm-volume. Sound sources can easily be muted and
 there is also wheel mouse support.
 
-%description -l pl
-Mixer.app to program kontroluj±cy mikser audio. Jest zaprojektowany by
-dokowaæ siê w Window Makerze. Ten program ma trzy kontrolery
-g³o¶no¶ci, które mog± byæ skonfigurowane tak, by mog³y zarz±dzaæ
-dowolnym ¼ród³em d¼wiêku.
+%description -l pl.UTF-8
+Mixer.app to program kontrolujÄ…cy mikser audio. Jest zaprojektowany by
+dokowaÄ‡ siÄ™ w Window Makerze. Ten program ma trzy kontrolery
+gÅ‚oÅ›noÅ›ci, ktÃ³re mogÄ… byÄ‡ skonfigurowane tak, by mogÅ‚y zarzÄ…dzaÄ‡
+dowolnym ÅºrÃ³dÅ‚em dÅºwiÄ™ku.
 
 %prep
 %setup  -q
