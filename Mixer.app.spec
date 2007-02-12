@@ -1,5 +1,5 @@
 Summary:	A Window Maker dock app with mixer
-Summary(pl.UTF-8):   Dokująca aplikacja Window Makera z mikserem
+Summary(pl.UTF-8):	Dokująca aplikacja Window Makera z mikserem
 Name:		Mixer.app
 Version:	1.4.0
 Release:	1
